@@ -1,0 +1,37 @@
+{
+  "name": "flash-flexible",
+  "version": "0.0.1",
+  "description": "flexible for rem",
+  "main": "./build/changeRem-min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/water-wheel/flash-flexible.git"
+  },
+  "keywords": [
+    "flexible",
+    "rem",
+    "px"
+  ],
+  "author": "David Feng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/water-wheel/flash-flexible/issues"
+  },
+  "homepage": "https://github.com/water-wheel/flash-flexible#readme",
+  "devDependencies": {
+    "grunt"               : "~0.4.1",
+    "grunt-contrib-copy"  : "",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-clean" : "~0.4.0",
+    "grunt-contrib-less"  : "~0.5.0",
+    "grunt-css-combo"     : "~0.2.1",
+    "grunt-contrib-cssmin": "~0.5.0",
+    "grunt-contrib-watch" : "~0.3.1",
+    "grunt-exec"          : "~0.4.1",
+    "fs-extra"            : "",
+    "grunt-replace"       : ""
+  }
+}

@@ -1,0 +1,2 @@
+/*! lm-flexible 2017-09-23 16:39:08 */
+!function(a){function b(){c=e.getBoundingClientRect().width,d!==c&&(d=c,a.rem=c/10,/ZTE U930_TD/.test(navigator.userAgent)&&(a.rem=1.13*a.rem),e.style.fontSize=a.rem+"px")}var c,d,e=document.documentElement,f=null;b(),a.addEventListener("resize",function(){clearTimeout(f),f=setTimeout(b,300)}),a.addEventListener("orientationchange",function(){clearTimeout(f),f=setTimeout(b,300)})}(window,void 0);
